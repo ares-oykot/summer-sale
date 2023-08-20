@@ -15,9 +15,7 @@ function handleCLikCard(target) {
     totalPrice = totalPrice + price;
     ///////////
     const btnCoupon = document.getElementById('btn-coupon');
-    const couponField = document.getElementById('coupon-field');
     const totalPriceText = document.getElementById('total-price');
-    const discount = document.getElementById('discount');
     const total = document.getElementById('total');
     ///////////
     if (totalPrice >= 200) {
